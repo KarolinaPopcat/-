@@ -11,19 +11,26 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <form action="#">
-    <h2>Регистрация</h2>
+  <div id="app">
+    {{message}}
+  <form action="#" v-on:submit.prevent="register">
+    <h2>Вход</h2>
+
 <label for="email"> Email</label>
-<input type="email" name="email" id="email" placeholder="Введите вашу почту">
+<input v-model="email" type="email" name="email" id="email" placeholder="Введите вашу почту">
 
 <label for="password"> Пароль</label>
-<input type="password" name="password" id="password" placeholder="Введите пароль">
+<input v-model="password" type="password" name="password" id="password" placeholder="Введите пароль">
 
-<label for="password"> Повторите пароль</label>
-<input type="password" name="password" id="password" placeholder="Введите пароль">
-
-<input type="submit" value="Зарегистрироваться">
+<input type="submit" value="Войти">
+<p><a href="registr.html">Забыли пароль?</a></p>
+<!-- <div class="alert">Упс! Неправильный логин или пароль. 
+  Попробуйте снова!</div> -->
+<div class="alert">{{error}}</div>
   </form>
-    
+</div>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
