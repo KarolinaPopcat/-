@@ -12,9 +12,11 @@
 </head>
 <body>
   <div id="app">
-    {{message}}
+    <!-- <div class="error">
+      {{error}}
+    </div> -->
   <form action="#" v-on:submit.prevent="register">
-    <h2>Вход</h2>
+    <h2>Регистрация</h2>
 
 <label for="email"> Email</label>
 <input v-model="email" type="email" name="email" id="email" placeholder="Введите вашу почту">
@@ -22,11 +24,11 @@
 <label for="password"> Пароль</label>
 <input v-model="password" type="password" name="password" id="password" placeholder="Введите пароль">
 
-<input type="submit" value="Войти">
-<p><a href="registr.html">Забыли пароль?</a></p>
+<input type="submit" value="Зарегестрироваться">
+<p><a href="login.html">Уже есть аккаунт? Войти</a></p>
 <!-- <div class="alert">Упс! Неправильный логин или пароль. 
   Попробуйте снова!</div> -->
-<div class="alert">{{error}}</div>
+<div class="alert" v-if="error">{{error}}</div>
   </form>
 </div>
 
