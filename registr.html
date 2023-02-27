@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Авторизация</title>
+    <title>Регистрация</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <ul>
+      <li><a href="">Главная</a></li>
+      <li><a href="">Обо мне</a></li>
+      <li><a href="">Портфолио</a></li>
+      <li><a href="">Контакты</a></li>
+    </ul>
+    
+  </header>
   <div id="app">
     <!-- <div class="error">
       {{error}}
@@ -29,6 +38,18 @@
 <!-- <div class="alert">Упс! Неправильный логин или пароль. 
   Попробуйте снова!</div> -->
 <div class="alert" v-if="error">{{error}}</div>
+<div class="backfon" v-if="loading">
+  <div class="jelly"></div>
+<svg width="0" height="0" class="jelly-maker">
+  <defs>
+    <filter id="uib-jelly-ooze">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6.25" result="blur"></feGaussianBlur>
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="ooze"></feColorMatrix>
+      <feBlend in="SourceGraphic" in2="ooze"></feBlend>
+    </filter>
+  </defs>
+</svg>
+</div>
   </form>
 </div>
 

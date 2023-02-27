@@ -108,6 +108,8 @@ form>h2 {
     position: absolute;
 }
 
+
+
 @keyframes rotate72317 {
 
     0%,
@@ -145,3 +147,30 @@ form>h2 {
         transform: scale(0.65) translateX(75%);
     }
 }
+header{
+    width: 900px; 
+    height: 100px;   
+    background-color:#BFC9B2;
+    margin-bottom: 10px;   
+    border-radius: 30px;
+    padding: 15px;
+    margin: 0 auto;
+
+  }
+  header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header li a,header li{
+    padding: 25px;
+    font-size:25px;
+  text-decoration: none;
+  color: #464D3E ;
+}
+

@@ -11,8 +11,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <ul>
+      <li><a href="">Главная</a></li>
+      <li><a href="">Обо мне</a></li>
+      <li><a href="">Портфолио</a></li>
+      <li><a href="">Контакты</a></li>
+    </ul>
+    
+  </header>
   <div id="app">
-    {{message}}
   <form action="#" v-on:submit.prevent="login">
     <h2>Вход</h2>
 
@@ -23,9 +31,9 @@
 <input v-model="password" type="password" name="password" id="password" placeholder="Введите пароль">
 
 <input type="submit" value="Войти">
-<p><a href="registr.html">Забыли пароль?</a></p>
-<div class="alert">Упс! Неправильный логин или пароль. 
-  Попробуйте снова!</div>
+<p><a href="registr.html">Еще нет аккаунта? Регистрация</a></p>
+
+  <div class="alert" v-if="error">{{error}}</div>
 
 <div class="backfon" v-if="loading">
   <div class="jelly"></div>
