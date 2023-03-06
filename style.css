@@ -238,5 +238,31 @@ main {
 .about {
     background: #A9B39C;
     color: #ffffff;
+    height: 900px;
+    display: flex;
+    align-items: flex-start;
+}
+.aboutme {
+    padding: 40px;
+    text-decoration: underline;
+    font-size: 80px;
+}
+.me{ 
+font-size: 35px;
+display: flex;
+padding-left: 40px;
+}
+.about main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.smile{
+display: flex;
+padding: 20px;
+}
+.smile main{
+display: flex;
 
 }
