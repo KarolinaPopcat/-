@@ -214,6 +214,7 @@ body {
     font-size: 35px;
     color: #464D3E;
     align-items: center;
+    font-family: 'Ubuntu Light', sans-serif;
 }
 
 main {
@@ -244,19 +245,22 @@ main {
 }
 .aboutme {
     padding: 40px;
-    text-decoration: underline;
     font-size: 80px;
 }
 .me{ 
 font-size: 35px;
 display: flex;
 padding-left: 40px;
+font-weight: 200;
+font-family: 'Ubuntu Light', sans-serif;
+padding-top: 40px;
 }
 .about main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 .smile{
 display: flex;
@@ -264,5 +268,69 @@ padding: 20px;
 }
 .smile main{
 display: flex;
+justify-content: center;
+}
+.framework{
+    background: #ECEFE9;
+    width: 1600px;
+    height: 1800px;
+    border-radius: 50px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.work{
+    padding: 40px;
+    text-decoration: underline;
+    font-size: 80px;
+    color:#464D3E ;
+    font-family: 'Ubuntu Light', sans-serif;
+}
+.dog{
+animation: dog 3s infinite ease-in-out ;
+display: flex;
+justify-content: flex-end;
+}
+@keyframes dog {
+    0% {
 
+    }
+    50% {
+        transform: scale(1.2)
+    }
+    100%{
+
+    }
+}
+.framephone{
+    width: 1600px;
+    height: 900px;
+    border-radius: 50px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background:#A9B39C;
+}
+.phone{
+    padding: 40px;
+    text-decoration: underline;
+    font-size: 80px;
+    font-family: 'Ubuntu Light', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.aboutme span {
+    text-decoration: underline;
+}
+.card:nth-child(1){
+padding: 30px;
+display:flex ;
+}
+.card:nth-child(2){
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.card:nth-child(3){
+    padding: 30px;
+    display: flex;
 }
