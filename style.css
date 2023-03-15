@@ -7,15 +7,23 @@ body {
 
 form {
 
-    background-color: #D6DACF;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    margin: 0 auto;
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;
+background-color: #D6DACF;
+
+width: 400px;
+
+display: flex;
+
+flex-direction: column;
+
+padding: 20px;
+
+margin: 0 auto;
+
+border-radius: 20px;
+
+position: relative;
+
+overflow: hidden;
 }
 
 .backfon {
@@ -289,7 +297,7 @@ justify-content: center;
 .dog{
 animation: dog 3s infinite ease-in-out ;
 display: flex;
-justify-content: flex-end;
+justify-content: center;
 }
 @keyframes dog {
     0% {
@@ -328,9 +336,54 @@ display:flex ;
 .card:nth-child(2){
     padding: 30px;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
 }
 .card:nth-child(3){
     padding: 30px;
     display: flex;
+    flex-direction: row-reverse;
+}
+.card:nth-child(4){
+    display: flex;
+    padding: 30px;
+}
+.card p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #464D3E;
+}
+.telega{
+    display: flex;
+    padding-right : 30px;
+    font-size: 30px;
+    color: #ffffff;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+.Inst{
+    display: flex;
+    padding-right: 30px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.frameinfo{
+    background: #ecefe9b8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.novis{
+    display: none;
 }
