@@ -29,7 +29,7 @@ createApp({
                         alert('Пользователь успешно создан')
                         break;
                     case 403:
-                        this.error="Такой пользователь уже существует"
+                        this.error = "Такой пользователь уже существует"
                         break;
                     case 400:
                         alert("Не верные данные")
@@ -47,7 +47,7 @@ createApp({
                 });
         },
         login() {
-            this.loading=true
+            this.loading = true
             console.log(this.email)
             console.log(this.password)
 
@@ -63,22 +63,22 @@ createApp({
                         alert('Вы авторизовались')
                         break;
                     case 403:
-                        this.error="Проверьте логин или пароль"
+                        this.error = "Проверьте логин или пароль"
                         break;
                     default:
-                        this.error="Неизвестный статус"
+                        this.error = "Неизвестный статус"
                         break;
                 }
                 return response.json();
             }).then((data) => {
                 console.log(data)
-                this.loading=false
+                this.loading = false
             })
                 .catch((err) => {
                     console.error("Невозможно отправить запрос", err);
                 });
         }
-        
+
 
     }
 }).mount('#app')

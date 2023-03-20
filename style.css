@@ -7,23 +7,23 @@ body {
 
 form {
 
-background-color: #D6DACF;
+    background-color: #D6DACF;
 
-width: 400px;
+    width: 400px;
 
-display: flex;
+    display: flex;
 
-flex-direction: column;
+    flex-direction: column;
 
-padding: 20px;
+    padding: 20px;
 
-margin: 0 auto;
+    margin: 0 auto;
 
-border-radius: 20px;
+    border-radius: 20px;
 
-position: relative;
+    position: relative;
 
-overflow: hidden;
+    overflow: hidden;
 }
 
 .backfon {
@@ -251,18 +251,21 @@ main {
     display: flex;
     align-items: flex-start;
 }
+
 .aboutme {
     padding: 40px;
     font-size: 80px;
 }
-.me{ 
-font-size: 35px;
-display: flex;
-padding-left: 40px;
-font-weight: 200;
-font-family: 'Ubuntu Light', sans-serif;
-padding-top: 40px;
+
+.me {
+    font-size: 35px;
+    display: flex;
+    padding-left: 40px;
+    font-weight: 200;
+    font-family: 'Ubuntu Light', sans-serif;
+    padding-top: 40px;
 }
+
 .about main {
     display: flex;
     flex-direction: row;
@@ -270,15 +273,18 @@ padding-top: 40px;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-.smile{
-display: flex;
-padding: 20px;
+
+.smile {
+    display: flex;
+    padding: 20px;
 }
-.smile main{
-display: flex;
-justify-content: center;
+
+.smile main {
+    display: flex;
+    justify-content: center;
 }
-.framework{
+
+.framework {
     background: #ECEFE9;
     width: 1600px;
     height: 1800px;
@@ -287,76 +293,86 @@ justify-content: center;
     margin: 0 auto;
     margin-bottom: 30px;
 }
-.work{
+
+.work {
     padding: 40px;
     text-decoration: underline;
     font-size: 80px;
-    color:#464D3E ;
+    color: #464D3E;
     font-family: 'Ubuntu Light', sans-serif;
 }
-.dog{
-animation: dog 3s infinite ease-in-out ;
-display: flex;
-justify-content: center;
-}
-@keyframes dog {
-    0% {
 
-    }
+.dog {
+    animation: dog 3s infinite ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes dog {
+    0% {}
+
     50% {
         transform: scale(1.2)
     }
-    100%{
 
-    }
+    100% {}
 }
-.framephone{
+
+.framephone {
     width: 1600px;
     height: 900px;
     border-radius: 50px;
     padding-bottom: 15px;
     margin: 0 auto;
     margin-bottom: 30px;
-    background:#A9B39C;
+    background: #A9B39C;
 }
-.phone{
+
+.phone {
     padding: 40px;
     text-decoration: underline;
     font-size: 80px;
     font-family: 'Ubuntu Light', sans-serif;
     color: rgb(255, 255, 255);
 }
+
 .aboutme span {
     text-decoration: underline;
 }
-.card:nth-child(1){
-padding: 30px;
-display:flex ;
+
+.card:nth-child(1) {
+    padding: 30px;
+    display: flex;
 }
-.card:nth-child(2){
+
+.card:nth-child(2) {
     padding: 30px;
     display: flex;
     flex-direction: row;
 }
-.card:nth-child(3){
+
+.card:nth-child(3) {
     padding: 30px;
     display: flex;
     flex-direction: row-reverse;
 }
-.card:nth-child(4){
+
+.card:nth-child(4) {
     display: flex;
     padding: 30px;
 }
-.card p{
+
+.card p {
     padding-left: 30px;
     padding-right: 30px;
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
     color: #464D3E;
 }
-.telega{
+
+.telega {
     display: flex;
-    padding-right : 30px;
+    padding-right: 30px;
     font-size: 30px;
     color: #ffffff;
     flex-wrap: wrap;
@@ -364,7 +380,8 @@ display:flex ;
     justify-content: flex-start;
     flex-direction: row-reverse;
 }
-.Inst{
+
+.Inst {
     display: flex;
     padding-right: 30px;
     padding-top: 10px;
@@ -373,7 +390,8 @@ display:flex ;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
-.frameinfo{
+
+.frameinfo {
     background: #ecefe9b8;
     position: fixed;
     left: 0;
@@ -384,6 +402,24 @@ display:flex ;
     justify-content: center;
     align-items: center;
 }
-.novis{
+
+.novis {
     display: none;
+}
+
+.dog img {
+    width: 640px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-leave-to
+
+/* .fade-leave-active до версии 2.1.8 */
+    {
+    opacity: 0;
 }
