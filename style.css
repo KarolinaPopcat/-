@@ -276,9 +276,11 @@ main {
 
 .smile {
     display: flex;
-    padding: 20px;
+    padding: 30px;
 }
-
+.smile img{
+    width: 500px;
+}
 .smile main {
     display: flex;
     justify-content: center;
@@ -318,6 +320,40 @@ main {
     100% {}
 }
 
+.frameproga{
+    height: 500px;
+    background: #A9B39C;  
+}
+
+.meuse{
+    padding: 40px;
+    text-decoration: underline;
+    font-size: 80px;
+    font-family: 'Ubuntu Light', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.proga{
+    display: flex;
+}
+.pixso{
+    display: flex;
+    padding: 25px;
+    padding-left: 80px;
+}
+.figma{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}
+.visualstudio{
+    display: flex;
+    padding: 25px;
+    justify-content: flex-end;
+}
+.github{
+    padding: 25px;
+
+}
 .framephone {
     width: 1600px;
     height: 900px;
@@ -392,7 +428,7 @@ main {
 }
 
 .frameinfo {
-    background: #ecefe9b8;
+    background: #7c7c7cb8;
     position: fixed;
     left: 0;
     right: 0;
@@ -401,6 +437,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.framephone button{
+padding: 20px;
+background: #5d6453;
+color: #ffffff;
+font-size: 30px;
+font-family: 'Ubuntu', sans-serif;
+border-radius: 15px; 
+display: flex;
+margin-top: -100px;
+margin-left: 60px;
 }
 
 .novis {
