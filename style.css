@@ -471,3 +471,78 @@ margin-left: 60px;
     {
     opacity: 0;
 }
+
+@media screen and (max-width: 1660px) {
+    header {
+      margin: 0 auto;
+      width: 70%;
+      height: 100%;
+      margin-bottom: 10px;
+      border-radius: 30px;
+    }
+
+    .right {
+        background: #BFC9B2;
+        width: 40%;
+        height: 450px;
+        display: flex;
+    }
+
+    .logo img{
+        width: 10%;
+
+    }
+
+    .frame{
+        width: 100%;
+    }
+
+    header li a,
+header li {
+    padding: 22px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #464D3E;
+    display: flex;
+}
+.aboutme{
+    font-size: 50px;
+}
+.me{
+    font-size: 30px;
+}
+.meuse{
+    font-size: 50px;
+}
+.smile img{
+    width: 150%;
+}
+.smile{
+    width: 150%;
+}
+    .pixso{
+        display: flex;
+        padding: 25px;
+        padding-left: 80px; 
+        width: 15%;
+    }
+    .figma{
+        display: flex;
+        padding: 25px;
+        justify-content: center;
+        width: 15%;
+    }
+    .visualstudio{
+        display: flex;
+        padding: 25px;
+        justify-content: flex-end;
+        width: 15%;
+    }
+    .github{
+        padding: 25px;
+        width: 15%;
+    }
+    .work{
+     font-size: 50px;
+    }
+  }
