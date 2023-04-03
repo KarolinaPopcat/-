@@ -417,7 +417,7 @@ main {
     flex-direction: row-reverse;
 }
 
-.Inst {
+.inst {
     display: flex;
     padding-right: 30px;
     padding-top: 10px;
@@ -488,28 +488,19 @@ margin-left: 60px;
         display: flex;
     }
 
-    .logo img{
-        width: 10%;
-
-    }
-
     .frame{
         width: 100%;
     }
 
     header li a,
 header li {
-    padding: 22px;
     font-size: 15px;
-    text-decoration: none;
-    color: #464D3E;
-    display: flex;
 }
 .aboutme{
     font-size: 50px;
 }
 .me{
-    font-size: 30px;
+    font-size: 25px;
 }
 .meuse{
     font-size: 50px;
@@ -519,6 +510,9 @@ header li {
 }
 .smile{
     width: 150%;
+}
+.proga{
+    margin: 0 auto;
 }
     .pixso{
         display: flex;
@@ -544,5 +538,36 @@ header li {
     }
     .work{
      font-size: 50px;
+    }
+    .phone{
+        font-size: 50px;
+    }
+    .framephone{
+        width: 100%;
+    }
+    .framework{
+        width: 100%;
+    }
+    .telega{
+        font-size: 25px;
+    }
+    .inst{
+        font-size: 25px;
+    }
+    .dog img{
+        width: 55%;
+        margin-bottom: 20px;
+    }
+    .dog{
+        width: 100%;
+    }
+    .card{
+        width: 80%;
+    }
+    .language{
+        font-size: 25px;
+    }
+    .logo svg{
+        width: 90%;
     }
   }
