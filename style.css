@@ -171,6 +171,7 @@ header ul {
     list-style: none;
     display: flex;
     margin: 0;
+    flex-wrap: wrap;
 }
 
 header {
@@ -352,7 +353,7 @@ main {
 }
 .github{
     padding: 25px;
-
+    width: 25%;
 }
 .framephone {
     width: 1600px;
@@ -467,7 +468,7 @@ margin-left: 60px;
 .fade-enter,
 .fade-leave-to
 
-/* .fade-leave-active до версии 2.1.8 */
+/* .fade-leave-active Ð´Ð¾ Ð²ÐµÑ€ÑÐ¸Ð¸ 2.1.8 */
     {
     opacity: 0;
 }
@@ -506,7 +507,7 @@ header li {
     font-size: 50px;
 }
 .smile img{
-    width: 150%;
+    width: 100%;
 }
 .smile{
     width: 150%;
@@ -514,27 +515,21 @@ header li {
 .proga{
     margin: 0 auto;
 }
-    .pixso{
-        display: flex;
+    .pixso svg{
         padding: 25px;
-        padding-left: 80px; 
-        width: 15%;
+        width: 85%;
     }
-    .figma{
-        display: flex;
+    .figma svg{
         padding: 25px;
-        justify-content: center;
-        width: 15%;
+        width: 85%;
     }
-    .visualstudio{
-        display: flex;
+    .visualstudio svg{
         padding: 25px;
-        justify-content: flex-end;
-        width: 15%;
+        width: 85%;
     }
-    .github{
+    .github svg{
         padding: 25px;
-        width: 15%;
+        width: 85%;
     }
     .work{
      font-size: 50px;
@@ -570,4 +565,4 @@ header li {
     .logo svg{
         width: 90%;
     }
-  }
+  } 
