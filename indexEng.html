@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт</title>
+    <title>Website</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
@@ -18,10 +18,10 @@
         <div class="frame">
             <header class="wow fadeInDown">
                 <ul>
-                    <li><a href="registr.html">Регистрация</a></li>
-                    <li><a href="">Обо мне</a></li>
-                    <li><a href="">Портфолио</a></li>
-                    <li><a href="">Контакты</a></li>
+                    <li><a href="registr.html">Registration</a></li>
+                    <li><a href="">About me</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Contacts</a></li>
                 </ul>
 
             </header>
@@ -48,7 +48,7 @@
 
                 </div>
                 <div class="right wow fadeInRight">
-                    <div class="quote">"Создаю простые и красивые дизайны"</div>
+                    <div class="quote">"I create simple and beatutiful designs"</div>
                     <div class="botton"><svg width="202.700195" height="44.266907" viewBox="0 0 202.7 44.2669"
                             fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -64,12 +64,12 @@
                 </div>
 
             </main>
-            <a class="language wow fadeInRight" href="indexEng.html">English</a>
+            <a class="language wow fadeInRight" href="index.html">Russian</a>
         </div>
         <div class="frame about">
             <main>
-                <div class="aboutme wow jackInTheBox"><span>Обо мне</span>
-                    <div class="me"> Привет, меня зовут Каролина. Я занимаюсь веб-дизайном с 2023 года. Помимо сайтов я
+                <div class="aboutme wow jackInTheBox"><span>About me</span>
+                    <div class="me"> Hi, I'm Karolina. I have been doing web design since 2023. Помимо сайтов я
                         также рисую в sai2. Сколько себя помню, всегда была творческой личностью. Помогу вам создать
                         свой
                         сайт для магазина, бренда одежды, различных услуг и тд. </div>
@@ -84,7 +84,7 @@
         </div>
 
         <div class="frameproga frame"> 
-<div class="meuse wow jackInTheBox">Я использую</div>
+<div class="meuse wow jackInTheBox">I use</div>
 <div class="proga wow flipInX">
 <div class="pixso"><svg width="320.000000" height="200.000000" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<rect id="image.png" width="320.000000" height="320.000000" fill="url(#pattern_14_20)"/>
@@ -130,13 +130,13 @@
         </div>
 
         <div class="framework">
-            <div class="work wow jackInTheBox">Портфолио</div>
+            <div class="work wow jackInTheBox">Portfolio</div>
             <div class="card wow flipInX">
-               <img class="peach" src="img/peach.png" alt="">
-                <p>Цветочный магазин</p>
+               <img src="img/peach.png" alt="">
+                <p>Plant shop</p>
             </div>
             <div class="card wow flipInX"><img src="img/neko.png" alt="">
-                <p>Магазин манги</p>
+                <p>Manga shop</p>
             </div>
             <div class="card wow flipInX"><svg width="683.000000" height="335.000000" viewBox="0 0 683 335" fill="none"
                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -144,37 +144,37 @@
                     <rect id="Rectangle 14" width="683.000000" height="335.000000" fill="#C4C4C4" />
                     <defs />
                 </svg>
-                <p>Что-то ещё</p>
+                <p>Something else</p>
             </div>
         </div>
 
         <div class="framephone">
-            <div class="phone wow jackInTheBox">Контакты</div>
+            <div class="phone wow jackInTheBox">Contacts</div>
             <div class="dog">
                 <img src="img/dog.png" alt="">
             </div>
             <div class="telega"> Telegram - @Ko_ru_qwq </div>
             <div class="inst">Instagram - @_.poppy_seed_bun_</div>
-            <button v-on:click="modal=!modal">Связаться</button>
+            <button v-on:click="modal=!modal">contact</button>
         </div>
         <transition name="fade">
              <div v-if="modal">
             <div class="frameinfo">
                 <div>
                     <form>
-                        <h2>Напишите мне</h2>
+                        <h2>Write me</h2>
 
-                        <label for="name"> Ваше имя</label>
-                        <input type="name" name="name" id="name" placeholder="Введите ваше имя">
+                        <label for="name"> Your name</label>
+                        <input type="name" name="name" id="name" placeholder="Enter your name">
 
-                        <label for="phone"> Номер телефона</label>
-                        <input type="phone" name="phone" id="phone" placeholder="Введите номер">
+                        <label for="phone"> Phone number</label>
+                        <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
 
-                        <label for="website"> Какой сайт вам нужен?</label>
-                        <input type="website" name="website" id="website" placeholder="Введите ваше сообщение">
+                        <label for="website">What site do you need?</label>
+                        <input type="website" name="website" id="website" placeholder="Enter your message">
 
-                        <input type="submit" value="Обсудить проект">
-                        <button v-on:click="modal=!modal" class="close">Закрыть</button>
+                        <input type="submit" value="Discuss the project">
+                        <button v-on:click="modal=!modal" class="close">Close</button>
                     </form>
                 </div>
             </div>
