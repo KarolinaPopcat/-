@@ -433,6 +433,12 @@ main {
     align-content: center;
     justify-content: flex-start;
     flex-direction: row-reverse;
+    text-decoration: none;
+}
+
+.telega a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .inst {
@@ -443,6 +449,11 @@ main {
     color: #ffffff;
     flex-wrap: wrap;
     justify-content: flex-end;
+}
+
+.inst a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .frameinfo {
@@ -474,10 +485,10 @@ margin-left: 60px;
 }
 
 .dog img {
-    width: 640px;
+    width: 600px;
 }
 
-.peach {
+.peach{
     width: 683px;
 }
 
@@ -490,8 +501,8 @@ margin-left: 60px;
   color: #ffffff;
   border-radius: 15px;
   margin: auto;
-  margin-top: 19px;
-  padding: 10px;
+  margin-top: 30px;
+  padding: 20px;
 }
 
 .fade-enter-active,
@@ -584,11 +595,11 @@ header li {
         font-size: 25px;
     }
     .dog img{
-        width: 55%;
+        width: 40%;
         margin-bottom: 20px;
     }
     .dog{
-        width: 100%;
+        width: 80%;
     }
     .card{
         width: 80%;
@@ -601,6 +612,6 @@ header li {
     }
 
     .card img {
-        width: 80%;
+        width: 100%;
     }
   } 
