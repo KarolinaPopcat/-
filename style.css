@@ -61,11 +61,27 @@ form>h2 {
     text-align: center;
 }
 
+.tohome{
+  background: #89937C;
+  border-radius: 15px;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #2c2b2b;
+}
+
+.question{
+    margin: 0;
+   display: flex;
+   justify-content: center;
+}
+
 .alert {
     background-color: #c53939;
     border-radius: 5px;
     margin: 0;
-    padding: 5px;
+    padding: 15px;
     font-family: 'Ubuntu', sans-serif;
 
 }
@@ -226,6 +242,15 @@ main {
 
 .botton {
     margin-right: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.view{
+    text-decoration: none;
+    color: #2c2b2b;
 }
 
 .language {

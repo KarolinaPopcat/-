@@ -4,39 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Авторизация</title>
+    <title>Create account</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- <header>
-    <ul>
-      <li><a href="index.html">Главная</a></li>
-      <li><a href="">Обо мне</a></li>
-      <li><a href="">Портфолио</a></li>
-      <li><a href="">Контакты</a></li>
-    </ul>
-    
-  </header> -->
   <div id="app">
-  <form action="#" v-on:submit.prevent="login">
-    <h2>Вход</h2>
+    <!-- <div class="error">
+      {{error}}
+    </div> -->
+  <form action="#" v-on:submit.prevent="register">
+    <h2>Create account</h2>
 
 <label for="email"> Email</label>
-<input v-model="email" type="email" name="email" id="email" placeholder="Введите вашу почту">
+<input v-model="email" type="email" name="email" id="email" placeholder="Enter your email">
 
-<label for="password"> Пароль</label>
-<input v-model="password" type="password" name="password" id="password" placeholder="Введите пароль">
+<label for="password">password</label>
+<input v-model="password" type="password" name="password" id="password" placeholder="Enter password">
 
-<input type="submit" value="Войти">
-<p><a href="registr.html" class="question">Еще нет аккаунта? Регистрация</a></p>
+<input type="submit" value="Register">
+<p><a href="loginEng.html" class="question">Already have account?</a></p>
 
-<a href="index.html" class="tohome">Главная</a>
+<a href="indexEng.html" class="tohome">Home</a>
 
-  <div class="alert" v-if="error">{{error}}</div>
-
+<!-- <div class="alert">Упс! Неправильный логин или пароль. 
+  Попробуйте снова!</div> -->
+<div class="alert" v-if="error">{{error}}</div>
 <div class="backfon" v-if="loading">
   <div class="jelly"></div>
 <svg width="0" height="0" class="jelly-maker">

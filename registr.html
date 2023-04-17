@@ -11,15 +11,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <ul>
-      <li><a href="index.html">Главная</a></li>
-      <li><a href="">Обо мне</a></li>
-      <li><a href="">Портфолио</a></li>
-      <li><a href="">Контакты</a></li>
-    </ul>
-    
-  </header>
   <div id="app">
     <!-- <div class="error">
       {{error}}
@@ -34,7 +25,10 @@
 <input v-model="password" type="password" name="password" id="password" placeholder="Введите пароль">
 
 <input type="submit" value="Зарегестрироваться">
-<p><a href="login.html">Уже есть аккаунт? Войти</a></p>
+<p><a href="login.html" class="question">Уже есть аккаунт? Войти</a></p>
+
+<a href="index.html" class="tohome">Главная</a>
+
 <!-- <div class="alert">Упс! Неправильный логин или пароль. 
   Попробуйте снова!</div> -->
 <div class="alert" v-if="error">{{error}}</div>
